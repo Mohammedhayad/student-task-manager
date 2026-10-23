@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "created_at": "2026-10-23T10:42:32.022564",
+    "version": "1.0",
+    "next_id": 7
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "title": "CS201 Data Structures Lab Report",
+      "description": "Compare runtime efficiency and memory usage of AVL Trees vs Red-Black Trees. Include benchmark plots.",
+      "due_date": "2026-10-25",
+      "priority": "High",
+      "status": "In Progress",
+      "created_at": "2026-10-23T10:43:13.051150",
+      "updated_at": "2026-10-23T10:43:13.051150"
+    },
+    {
+      "id": 2,
+      "title": "MATH305 Linear Algebra Problem Set 5",
+      "description": "Complete textbook exercises 14.1 through 14.8 on Orthogonal Projections and Gram-Schmidt orthogonalization.",
+      "due_date": "2026-10-23",
+      "priority": "High",
+      "status": "Pending",
+      "created_at": "2026-10-23T10:43:13.059243",
+      "updated_at": "2026-10-23T10:43:13.059243"
+    },
+    {
+      "id": 3,
+      "title": "ENG102 Research Paper Outline",
+      "description": "Submit a 2-page thesis proposal and annotated bibliography of 5 peer-reviewed sources.",
+      "due_date": "2026-10-30",
+      "priority": "Medium",
+      "status": "Pending",
+      "created_at": "2026-10-23T10:43:13.066103",
+      "updated_at": "2026-10-23T10:43:13.066103"
+    },
+    {
+      "id": 4,
+      "title": "PHYS110 Physics Midterm Exam Revision",
+      "description": "Review chapters 1-6: Kinematics, Newton's Laws, Work-Energy Theorem, and Angular Momentum.",
+      "due_date": "2026-11-04",
+      "priority": "Medium",
+      "status": "Pending",
+      "created_at": "2026-10-23T10:43:13.074617",
+      "updated_at": "2026-10-23T10:43:13.074617"
+    },
+    {
+      "id": 5,
+      "title": "BIO105 Genetics Quiz 1",
+      "description": "Review Mendelian inheritance and Punnett squares.",
+      "due_date": "2026-10-20",
+      "priority": "Low",
+      "status": "Completed",
+      "created_at": "2026-10-23T10:43:13.081647",
+      "updated_at": "2026-10-23T10:43:13.081647"
+    }
+  ]
+}

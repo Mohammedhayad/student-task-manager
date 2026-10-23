@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Student Academic Task Manager{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-container">
+            <div class="brand">
+                <span class="brand-icon">📚</span>
+                <span class="brand-name">Academic Task Manager</span>
+                <span class="brand-tag">Student Edition</span>
+            </div>
+            <div class="header-actions">
+                <span class="today-badge" id="todayIndicator">📅 {{ today_date }}</span>
+                <button class="btn btn-primary" id="openCreateModalBtn" aria-label="Create New Task">
+                    <span class="btn-icon">➕</span> Create Task
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Toast Notifications Container -->
+    <div id="toastContainer" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <footer class="app-footer">
+        <div class="footer-container">
+            <p>Academic Task Manager &bull; Local &amp; Private Storage &bull; Ready for Coursework &amp; Exams</p>
+        </div>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
